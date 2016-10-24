@@ -1,0 +1,16 @@
+.row {
+    width: 100%;
+    display: inline-flex;
+    margin: 15px;
+}
+.col-sm-4 {
+    background-color: lightslategrey;
+    width: 30%;
+    text-align: center;
+    color: floralwhite;
+}
+.col-sm-8 {
+    border: 2px solid lightslategray;
+    text-align: center;
+    width: 70%;
+}

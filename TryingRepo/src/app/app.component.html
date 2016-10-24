@@ -1,0 +1,17 @@
+<h1>
+  {{heading}}
+</h1>
+<!--<child></child>
+<passing-input [info] = "mydata"></passing-input>
+  info = "ye text as it is pass hojaega child ko" -->
+
+<form method="post" action="JavaScript(0):void">
+  <label for="title"> Article Title </label>
+  <input type="text" id="title" #title />
+  <label for="link"> Link </label>
+  <input type="text" id="link" #link /><br><br>
+  <button (click)="addArticle(title,link)" class="btn btn-block btn-outline-success"> Submit </button>
+</form>
+<div class="container-fluid">
+  <card *ngFor = "let a of sortArticles()" [article]="a"></card>
+</div>

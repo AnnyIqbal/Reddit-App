@@ -1,0 +1,17 @@
+<p>
+  {{name}}, my child works! {{2-9}}
+</p>
+<ul>
+  <li *ngFor="let city of cities"> {{city}} </li>
+</ul>
+ {{c}} 
+<button (click)="addCity()"> + </button>
+<input [value]="name" /><br>
+<br><input [value]="'Hi ' + name" /> <!-- var in "" text in " '' " & concat using + --><br>
+<br><input type="text" [placeholder]="'enter ur name here'" /><br>
+<br><input [type]="code" [placeholder]="'enter ur name here'" /> <!-- working on type too, it masks the chars entered --><br>
+
+<!--<input type="text" [placeholder]='ijiji' /> it says undefoned-->
+<!--<input type="text" [placeholder]=ijiji /> it says undefoned-->
+<!--<input [value]="'name ' + Kc ho?" /> error-->
+
